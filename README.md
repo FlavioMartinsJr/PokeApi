@@ -2,8 +2,6 @@
   :phone: PokeApi
 </h1>
 
-## 
-
 :bell: Informações:
 
 Projeto elaborado para estudo, consumindo uma API REST e tecnicas de Front End 
