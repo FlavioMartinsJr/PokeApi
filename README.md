@@ -6,9 +6,10 @@
 
 Projeto elaborado para estudo, consumindo uma API REST e tecnicas de Front End 
 
+##
 <li>Preview</li><br>
 
-<ol><div style="width: 100%, align: center">
+<ol><div style="width: 100%, align: center, display: flex, justify-content: center">
 
   | Screen Tela |
   |---|
