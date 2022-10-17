@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: rgba(237, 236, 250, 0.301);
+}
+
+.header{
+    display: flex;
+    height: 120px;
+    background-color: #333;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+}
+.Gerar{
+    display: flex;
+    align-items: center;
+}
+.Gerar button{
+    box-shadow: 3px 0px 0px black;
+    border: 0;
+    margin-left: 15px;
+    background: linear-gradient(45deg, transparent 5%, grey 5%);
+}
+.Gerar button:hover{
+    background: linear-gradient(45deg, transparent 5%, black 5%);
+}
+.Gerar button img{
+    padding: 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+.fundo-pokemon{
+    padding: 2px;
+    height: 30vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-image: url(src/img/pokebola.png);
+
+}
+.fundo-pokemon h2{
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.fundo-pokemon h3{
+    margin-top: 10px;
+    display: flex;
+    top: 2px;
+    margin-top: -10px;
+    display: none;
+}
+.pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    filter: invert(50%);
+}
+
+.informar-pokemon{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.informar-pokemon  input{
+    margin: 20 auto;
+	padding: 10px;
+	border: 1;
+    margin-bottom: 10px;
+	border-radius: 50px;
+}
+.dicaPokemon{
+    height: 2vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dicaPokemon .dica-pokemon{
+    margin-left: 10px;
+}
+.btn-pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 60%;
+    margin-top: 10px;
+}
+.btn-pokemon .btn-2{
+    margin-left: 50px;
+}
+
+.btn-pokemon button, button::after {
+    font-size: 17px;
+    background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+    border: 0;
+    padding: 12px;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 60%;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: relative;
+}
+.btn-pokemon button::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6% 0 0);
+    --slice-2: inset(50% -6% 30% 0);
+    --slice-3: inset(10% -6% 85% 0);
+    --slice-4: inset(40% -6% 43% 0);
+    --slice-5: inset(80% -6% 5% 0);
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:linear-gradient(45deg, transparent 3%, #00e6f6, #00e6f6 5%, #ff013c 5%);
+    text-shadow: -3px -3px 0px #f8f005;
+    clip-path: var(--slice-0);
+}
+.btn-pokemon button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(3,end);
+}
+@keyframes glitch{
+    0%{
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+    }
+    10%{
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+    20%{
+        clip-path: var(--slice-1);
+        transform: translate(0px, 5px);
+    }
+    30%{
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+    40%{
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+    50%{
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+    60%{
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+    70%{
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+    80%{
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+    90%{
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+    }
+    100%{
+        clip-path: var(--slice-5);
+        transform: translate(0px);
+    }
+}
+.rodape{
+    background: #333;
+    padding: 25px;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
