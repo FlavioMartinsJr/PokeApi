@@ -1,2 +1,20 @@
-# PokeApi
-Projeto Front End no intuito de consumir uma API REST 
+<h1 align="Center">
+  :phone: PokeApi
+</h1><br>
+
+## :bell: Informações:
+
+Projeto elaborado para estudo, consumindo uma API REST e tecnicas de Front End 
+
+<li>Preview</li><br>
+
+<ol><div style="width: 100%, align: center">
+
+  | Screen Tela |
+  |---|
+  |<img  src="/src/ScreenTela/Home.png" alt="tela de inicio"/> | 
+</div></ol>
+
+##
+
+
