@@ -5,7 +5,7 @@
 :bell: Informações:
 
 Projeto elaborado para estudo, consumindo uma API REST e tecnicas de Front End 
-
+site: https://flaviomartinsjr.github.io/PokeApi/
 ##
 
 <li>Preview</li><br>
