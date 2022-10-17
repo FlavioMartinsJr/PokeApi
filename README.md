@@ -1,15 +1,18 @@
 <h1 align="Center">
   :phone: PokeApi
-</h1><br>
+</h1>
 
-## :bell: Informações:
+## 
+
+:bell: Informações:
 
 Projeto elaborado para estudo, consumindo uma API REST e tecnicas de Front End 
 
 ##
+
 <li>Preview</li><br>
 
-<ol><div style="width: 100%, align: center, display: flex, justify-content: center">
+<ol><div style="width: 100%, align: center, justify-content: center">
 
   | Screen Tela |
   |---|
