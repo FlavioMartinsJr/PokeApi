@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./src/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>Quem é esse Pokemon?</title>
+    <!-- gambiarra -->
+
+</head>
+<body>
+
+    <header class="header">
+        <img src="src/img/Pokémon-Logo.png" alt="Pokemon-logo" class="header-img">
+        <ul class="header-button">
+            <li id="trocar-Pokemon"><img src="src/img/icons8-actualizar-32.png" alt="Gerar Pokemon" ></li>
+            <li id="help"><img src="src/img/icons8-ajuda-32.png" alt="Ajudar"></li>
+        </ul>
+    </header>
+    <hr>
+    <main class="content">
+        <section class="content-pokemon">
+            <h1>Quem é esse Pokemon?</h1>
+            <article class="content-pokemon-fundo">
+                <img src="" id="imgPokemon">
+            </article>
+            <section>
+                <label for="nome-Pokemon">Pokemon:</label>
+                <input type="text" name="nome-Pokemon" id="nome-Pokemon" placeholder="digite o nome..." required autofocus>
+                <h3>Dica: <b id="nomePokemon"></b></h3>
+                <div class="btn-pokemon">
+                    <button id="btnConfirmar"class="btn-1" tabindex="0">Confirmar</button>
+                    <button id="btnResposta"class="btn-2" tabindex="0">Resposta</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <hr>
+    <div id="geracaoPokemon" class="geracaoPokemon">
+    </div>
+    <footer class="rodape">
+        <p>Copyright &copy; Flavin.com</p>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="main.js"></script>
+</body>  
+</html>
