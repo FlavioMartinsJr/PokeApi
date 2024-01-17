@@ -10,7 +10,7 @@ body{
     overflow-X: hidden;
 }
 .header{
-    background-color: RED;
+    background-color: #666;
     height: 160px;
     display: flex;
     justify-content: center;
